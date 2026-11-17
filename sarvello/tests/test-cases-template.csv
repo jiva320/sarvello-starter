@@ -1,0 +1,3 @@
+TC#,Module,Name and description,Steps,Expected result,Actual result,Pass/Fail,Tested by,Date,Screenshot file
+TC-M1-01,M1,Login with valid credentials,"Enter a registered email and password, click Log in",Customer home page opens with the user's name in the menu,,,,,
+TC-M4-01,M4,Expired batch is blocked from sale,"Set a batch expiry date to yesterday, run the expiry check, open the shop",The expired batch is not shown and cannot be added to the cart,,,,,

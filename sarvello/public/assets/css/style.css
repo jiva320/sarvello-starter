@@ -1,0 +1,17 @@
+/*
+ * File:    style.css
+ * Module:  Shared (UI lead: Fatima)
+ * Date:    2026-11-17
+ * Purpose: Site-wide styles on top of Bootstrap. Keep module styles in clearly labelled sections.
+ */
+
+:root {
+    --sarvello-green: #198754;
+    --near-expiry: #fd7e14;
+    --expired: #dc3545;
+}
+
+/* Expiry status badges (M4, M5) */
+.badge-fresh       { background: var(--sarvello-green); }
+.badge-near-expiry { background: var(--near-expiry); }
+.badge-expired     { background: var(--expired); }

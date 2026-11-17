@@ -1,0 +1,17 @@
+# Secrets: database password and OpenAI key
+config/config.php
+.env
+
+# Uploaded product images from local testing
+public/assets/img/uploads/*
+!public/assets/img/uploads/.gitkeep
+
+# Logs and backups
+logs/*.log
+database/backups/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
